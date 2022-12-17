@@ -35,5 +35,6 @@ function intersectHashMap(a: number[], b: number[]): number[] {
 }
 
 console.clear();
-console.log("intersectSimple", intersectSimple(a, b)); // [1, 9, 10]
-console.log("intersectHashMap", intersectHashMap(a, b)); // [1, 9, 10]
+console.log("intersectSimple", intersectSimple(a, b)); // [1, 9, 1, 10]
+console.log("intersectHashMap", intersectHashMap(a, b)); // [1, 9, 1, 10]
+
